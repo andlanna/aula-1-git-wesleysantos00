@@ -1,8 +1,22 @@
 # Aula 1 - Exemplo de Utilização do Git
 ## Professor André Lanna
 
-Essa primeira aula tem o intuito de apresentar os conceitos básicos de Git. 
-Ela ainda vai apresentar a utilização do serviço GitHub.
+Resolução do exercício proposto.
 
-Repositório do exemplo: https://github.com/andrelanna/aula1-oo.git
+1)
+
+a) gie init: Inicia um novo repositório local na pasta do seu projeto
+b) git clone: Copia o repositório remoto para seu computador
+c) git branch: gera uma nova ramificação 
+d) git checkout: desfaz tudo que foi feito desde o último commit
+e) git fetch:  atualiza o seu repositório local em relação a todas mudanças no repositório remoto sem baixa-las
+f) git pull: Atualiza seu repositório local em relação ao repositório remoto
+g) git add: Adiciona todos arquivos ao stage
+h) git commit: Salva uma nova versão (tipicamente no seu repositório local)
+i) git push: Envia o repositório local para o repositório remoto
+
+2) Git fetch faz download dos últimos commits da branch remoto, mas não os incorpora com a cópia atual do repositório. Estes commits só estarão disponíveis na branch origin\master, e o branch master continua intacto. Já o git pull equivale a fazer git fetch (download dos ultimos commits) + git merge (incorpora os commits com o branch local).
+
+
+
 
